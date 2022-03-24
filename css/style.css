@@ -1,0 +1,77 @@
+:root {
+    --color-primary: #8BD627;
+    --color-green: #0DC061;
+    --color-emerald: #00A481;
+    --color-Turquoise4: #00868B;
+    --color-Bluewood: #2F4858;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--color-green);
+}
+
+header {
+    background: rgb(13,192,97);
+    background: linear-gradient(0deg, rgba(13,192,97,1) 0%, rgba(0,164,129,1) 59%, rgba(0,134,139,1) 100%);
+    width: 100%;
+    height: 100px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-name {
+    font-family: 'Stylish', sans-serif;
+    font-size: 30px;
+    padding: 30px 0px 0px 20px;
+    display: flex;
+}
+
+.header-menu {
+    display: flex;
+    padding-right: 60px;
+    font-family: 'Stylish', sans-serif;
+    font-size: 25px;
+    padding-top: 35px;
+    position: relative;
+}
+
+.header-menu div{
+    margin-right: 30px;
+}
+
+.header-menu img {
+    position: absolute;
+    top: 34px;
+    width: 30px;
+    height: 30px;
+}
+
+.info-container {
+
+}
+
+.custom-shape-divider-top-1648129736 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1648129736 svg {
+    position: relative;
+    display: block;
+    width: calc(204% + 1.3px);
+    height: 300px;
+}
+
+.custom-shape-divider-top-1648129736 .shape-fill {
+    fill: #00868B;
+}
