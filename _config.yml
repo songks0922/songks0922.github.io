@@ -24,3 +24,4 @@ comment:
   provider:          "disqus"
   disqus:
     shortname:       "songks0922"
+asset_url: /assets
