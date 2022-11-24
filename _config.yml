@@ -22,5 +22,5 @@ version:             1.1.0
 google_analytics_id: G-H9LNKY48TD
 comment:
   provider:          "disqus"
-  dusqus:
+  disqus:
     shortname:       "songks0922"
